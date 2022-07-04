@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <title>D1- Calculando el Total</title>
+  </head>
+  <body>
+    <!-- contenedor -->
+    <div class="contenedor">
+      <!-- card -->
+      <div class="producto">
+        <img src="assets/IMG/Laptop.png" alt="" class="laptopImg" />
+        <div class="productoContenido">
+          <h2 class="ProductoNombre">Laptop Gamer AMD</h2>
+          <input id="i1" placeholder="Cantidad" />
+          <input id="i2" placeholder="Color" />
+          <div class="productoPrecios">
+            <p id="txtPrecio">Precio: <span id="valor">0</span></p>
+          </div>
+
+          <!-- <button id="calcular" class="productoBoton" onclick="calcular()">Calcular Total</button> -->
+          <button id="calcular" class="productoBoton" >Calcular Total</button>
+        </div>
+      </div>
+      <div class="resultado">
+        <p>Total: <span id="total">$0</span></p>
+        <p>Cantidad: <span id="cantidad">0</span></p>
+        <p>Color: <span id="color"></span></p>
+      </div>
+    </div>
+
+    <script src="assets/JS/script.js"></script>
+  </body>
+</html>
